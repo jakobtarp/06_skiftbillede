@@ -1,0 +1,40 @@
+* {
+font-family: sans-serif;
+margin: 0;
+padding: 0;
+}
+
+img {
+max-width: 100%;
+height: auto;
+display: block;
+margin-bottom: 1rem;
+}
+
+header {
+text-align: center;
+padding: 1rem;
+background-color: lightgrey;
+}
+
+main section {
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 2rem;
+}
+
+main {
+margin: 0 auto;
+width: 70%;
+}
+
+article {
+padding: 1rem;
+}
+
+footer {
+text-align: center;
+padding: 1rem;
+background-color: lightgrey;
+}
